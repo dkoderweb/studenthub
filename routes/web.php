@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\InquriesController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +22,9 @@ Route::get('/course', [HomeController::class,'course'])->name('course');
 Route::get('/instructor', [HomeController::class,'instructor'])->name('instructor');
 Route::get('/blog', [HomeController::class,'blog'])->name('blog');
 Route::get('/contact', [HomeController::class,'contact'])->name('contact');
+
+Route::post('/store', [InquriesController::class,'store'])->name('inquery.store');
+
 
 
 
