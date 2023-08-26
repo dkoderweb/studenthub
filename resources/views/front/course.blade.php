@@ -168,6 +168,17 @@ label.form-label {
     padding-left: 20px;
     padding-right: 20px;
 }
+.heading-section h2{
+  position: relative;
+}
+.heading-section h2:after {
+    content: '';
+    border-bottom: 3px solid #5d6ae6;
+    position: absolute;
+    bottom: -5px;
+    width: 140px;
+    left: 0;
+}
 </style>
 <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');">
 		<div class="overlay"></div>
@@ -180,6 +191,35 @@ label.form-label {
 			</div>
 		</div>
 	</section>
+  
+  <section class="ftco-section ftco-about img">
+ <div class="container">
+  <div class="row d-flex">
+   <div class="col-md-12 about-intro">
+    <div class="row">
+     <div class="col-md-6 d-flex">
+      <div class="d-flex about-wrap">
+       <div class="img d-flex align-items-center justify-content-center" style="background-image:url(images/city_1.jpg);">
+       </div>
+       <div class="img-2 d-flex align-items-center justify-content-center" style="background-image:url(images/city_2.jpg);">
+       </div>
+     </div>
+   </div>
+   <div class="col-md-6 pl-md-5 py-5">
+    <div class="row justify-content-start pb-3">
+      <div class="col-md-12 heading-section ftco-animate">
+       <span class="subheading">Enhanced Your Skills</span>
+       <h2 class="mb-4">Study In Canada</h2>
+       <p>For almost one and a half decade now, Canada has undeniably emerged as the most sought-after study destination not only for Indian students, but for students from more than 100 countries. Indian students currently account for 34% of the total international students in Canada (As of 2022), and the number is only growing at 21% per year. Since 2017, Indian nationals have been at the top of the chart as far as obtaining Canadian Permanent Residence is concerned. Canada is known for its state-of-the-art education infrastructure, and that coupled with the best instructors as well as superior pedagogy, leads to the most desired academic output for international students and their families. With an array of credentials, ranging from Diploma, Advanced Diploma, Associate Degree, Bachelor’s, Post Graduate Diploma, Master’s and Certificate, there is no dearth in the quality and diversity of excellent program choices for students at Canada’s Universities and its Community (Government) Colleges.</p>
+       <!-- <p><a href="#" class="btn btn-primary">Get in touch with us</a></p> -->
+     </div>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+</section>
 
 	<section class="ftco-section bg-light">
         
